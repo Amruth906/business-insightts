@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "cd business-seo-insights-dashboard-main/backend && npm start"
+  },
   "devDependencies": {
     "vite": "^7.0.2"
   }

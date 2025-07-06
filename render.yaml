@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: business-seo-insights-backend
+    env: node
+    plan: free
+    buildCommand: cd business-seo-insights-dashboard-main/backend && npm install
+    startCommand: cd business-seo-insights-dashboard-main/backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
