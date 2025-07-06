@@ -1,5 +1,10 @@
 # GrowthProAI Business Dashboard
 
+## 🚀 Live Demo
+
+- **Frontend (Netlify):** [https://business-insightts.netlify.app](https://business-insightts.netlify.app)
+- **Backend (Render):** [https://business-insightts.onrender.com](https://business-insightts.onrender.com)
+
 A simple full-stack project simulating how small businesses can view their SEO content and Google Business data. Built for the GrowthProAI Full Stack Intern Assignment.
 
 ## Features
