@@ -1,6 +1,11 @@
 {
+  "name": "business-seo-insights-dashboard",
+  "version": "1.0.0",
+  "description": "Business SEO Insights Dashboard",
   "scripts": {
-    "start": "cd business-seo-insights-dashboard-main/backend && npm start"
+    "install:backend": "cd business-seo-insights-dashboard-main/backend && npm install",
+    "start": "npm run install:backend && cd business-seo-insights-dashboard-main/backend && npm start",
+    "build": "npm run install:backend"
   },
   "devDependencies": {
     "vite": "^7.0.2"
